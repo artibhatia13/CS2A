@@ -1,0 +1,125 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";   
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Galada|Sriracha&display=swap');
+
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+
+  
+
+  p {
+      font-size: 16px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  .margin {
+      margin-bottom: 25px;
+    }
+
+
+    .txt1 {
+        padding-bottom: 50px;
+        font-family: 'Galada', cursive;
+    }
+    
+
+    .bio {
+        font-family: 'Sriracha', cursive;
+        font-size: 25px;
+
+    }
+
+    .fa-birthday-cake, .fa-phone, .fa-envelope, .fa-home, .fa-school, .fa-male, .fa-female, .fa-child, .fa-rss-square {
+        padding-right: 20px;
+    }
+
+  .bg-1 {
+    background-color: #ccffcc; 
+   
+    color: black;
+  }
+
+  .bg-2 { 
+    background-color: #b3ffb3; 
+    color: black;
+  }
+
+  .bg-3 { 
+    background-color: #80ff80; 
+    color: black;
+  }
+
+  .bg-4 { 
+    background-color: #4dff4d; 
+    color: black;
+  }
+  
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+  li {
+    margin: 8px;
+    list-style: none;
+    text-decoration: none;
+
+}
+ li:hover {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    
+
+}
+
+.school, .fa-facebook, .fa-twitter, .fa-instagram, .fa-github, .fa-pinterest, .fa-rss-square{
+    color: black;
+    text-decoration: none;
+}
+
+.school:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-github:hover, .fa-pinterest:hover, .fa-rss-square:hover {
+    text-decoration: none;
+}
+
+.school:visited, .fa-facebook:visited, .fa-twitter:visited, .fa-instagram:visited, .fa-github:visited, .fa-pinterest:visited, .fa-rss-square:hover {
+  text-decoration: none;
+}
+
+.school:active, .fa-facebook:active, .fa-twitter:active, .fa-instagram:active, .fa-github:active, .fa-pinterest:active, .fa-rss-square:hover   {
+  text-decoration: none;
+}
+
+@media (max-width:500px){
+  p {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
